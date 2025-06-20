@@ -2,7 +2,7 @@
 <@layout.registrationLayout displayMessage=!messagesPerField.existsError('username','password') displayInfo=realm.password && realm.registrationAllowed && !registrationDisabled??; section>
     <#if section = "header">
 			<div>
-				<img src="${url.resourcesPath}/img/arep-logo.svg">
+				<img src="${url.resourcesPath}/img/e-mothep-logo.png">
 			</div>
     <#elseif section = "form">
         <div id="kc-form">

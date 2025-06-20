@@ -2,7 +2,7 @@
 <@layout.registrationLayout displayMessage=messagesPerField.existsError('totp'); section>
     <#if section="header">
 			<div>
-				<img src="${url.resourcesPath}/img/arep-logo.svg">
+				<img src="${url.resourcesPath}/img/e-mothep-logo.png">
 				<p>${msg("loginTotpTitleInfo")}</p>
 			</div>
     <#elseif section="form">

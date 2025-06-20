@@ -1,17 +1,12 @@
-@font-face {
-	font-family: 'Josefin Sans';
-	src:
-		url('../fonts/JosefinSans.ttf'),
-		url('../fonts/JosefinSans-Bold.ttf'),
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 :root {
-	--color-primary: hsl(190, 52%, 32%);
-	--color-secondary: hsl(42, 67%, 54%);
-	--color-tertiary: hsl(144, 14%, 65%);
-	--color-text: hsl(0, 0%, 100%);
-	--color-error: hsl(0, 80%, 65%);
-	--color-surface: hsl(0, 0%, 85%);
+        --color-primary: #3f51b5;
+        --color-secondary: #ff4081;
+        --color-tertiary: #91b750;
+        --color-text: #212121;
+        --color-error: #f44336;
+        --color-surface: #fafafa;
 
 	--font-weight-lg: 700;
 	--font-weight-sm: 400;
@@ -72,7 +67,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-family: 'Josefin Sans', serif;
+        font-family: 'Roboto', sans-serif;
 	font-size: var(--font-size-lg);
 }
 

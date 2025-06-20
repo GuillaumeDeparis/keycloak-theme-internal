@@ -3,13 +3,13 @@
     <#if section = "header">
         <#if messageHeader??>
 					<div>
-						<img src="${url.resourcesPath}/img/arep-logo.svg">
+						<img src="${url.resourcesPath}/img/e-mothep-logo.png">
 						<p>${kcSanitize(msg("${messageHeader}"))?no_esc}</p>
 					</div>
             
         <#else>
 					<div>
-						<img src="${url.resourcesPath}/img/arep-logo.svg">
+						<img src="${url.resourcesPath}/img/e-mothep-logo.png">
 						<h1>Configurez votre connexion</h1>
 					</div>
         </#if>

@@ -2,7 +2,7 @@
 <@layout.registrationLayout displayInfo=false displayMessage=messagesPerField.existsError('username'); section>
     <#if section = "header">
 			<div>
-				<img src="${url.resourcesPath}/img/arep-logo.svg">
+				<img src="${url.resourcesPath}/img/e-mothep-logo.png">
 				<h1>${msg("emailForgotTitle")}</h1>
 			</div>
     <#elseif section = "form">

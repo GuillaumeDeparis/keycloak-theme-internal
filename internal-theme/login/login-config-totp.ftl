@@ -4,7 +4,7 @@
 
     <#if section = "header">
 			<div>
-				<img src="${url.resourcesPath}/img/arep-logo.svg">
+				<img src="${url.resourcesPath}/img/e-mothep-logo.png">
 				<h1>${msg("loginTotpTitle")}</h1>
 			</div>
     <#elseif section = "form">
