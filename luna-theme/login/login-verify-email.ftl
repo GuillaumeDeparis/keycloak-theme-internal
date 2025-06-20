@@ -2,7 +2,7 @@
 <@layout.registrationLayout displayInfo=true displayMessage=false; section>
     <#if section = "header">
 			<div>
-				<img src="${url.resourcesPath}/img/arep-logo.svg">
+				<img src="${url.resourcesPath}/img/e-mothep-logo.png">
 				<h1>${msg("emailVerifyTitle")}</h1>
 			</div>
         
